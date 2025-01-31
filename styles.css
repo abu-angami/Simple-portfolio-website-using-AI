@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #723790;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header .nav-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#hero {
+    text-align: center;
+    padding: 2rem;
+    background: #581977;
+}
+
+#about, #projects, #contact {
+    padding: 2rem;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.project-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #61287d;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact-form input, #contact-form textarea, #contact-form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #3a144e;
+    color: #4c1b64;
+}
+body {
+    background-image: url("https://img.freepik.com/free-photo/bright-pop-landscape-design_23-2149213461.jpg?t=st=1736921099~exp=1736924699~hmac=f27fc68f9620666798000447afaba45d53be18ae983b506467a3965605b09495&w=996");
+  }
